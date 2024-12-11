@@ -8,7 +8,7 @@ def show_eda_page():
     st.title("Exploratory Data Analysis Report")
 
     # Path to the EDA HTML report
-    html_file_path = r"C:\Users\anura\Desktop\Project 2- Big game Census Analytics\EDA report\eda_report.html"
+    html_file_path = "EDA report/eda_report.html"
 
     # Check if the HTML report file exists
     if os.path.exists(html_file_path):
@@ -62,6 +62,8 @@ def show_visualizations_page():
     st.subheader("Population vs. Player Count for Top 10 States")
     img7 = Image.open('Visualizations/Population vs. Player Count for Top 10 States.png')
     st.image(img7, caption='Population vs Player Count for Top 10 States')
+    
+    
 
     # Button to navigate to EDA page
     if st.button("Go to EDA Report"):
