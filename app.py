@@ -8,7 +8,7 @@ def show_eda_page():
     st.title("Exploratory Data Analysis Report")
 
     # Path to the EDA HTML report
-    html_file_path = r"C:\\Users\\anura\\Desktop\\Project 1- Tobacco Morality Analysis\\EDA Report\\EDA Report.html"
+    html_file_path = r"C:\Users\anura\Desktop\Project 2- Big game Census Analytics\EDA report\eda_report.html"
 
     # Check if the HTML report file exists
     if os.path.exists(html_file_path):
